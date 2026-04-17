@@ -9,10 +9,14 @@ library_name: mlx
 base_model: Qwen/Qwen3.6-35B-A3B
 ---
 
+> [!CAUTION]
+> "FP16" is M1/M2 Apple Silicon only optimization that leads to a very noticeable prompt processing boost. For details and benchmarks see [jundot/omlx/issues/604](https://github.com/jundot/omlx/issues/604).
+>
+> Please use [deepsweet/Qwen3.6-35B-A3B-MLX-oQ4](https://huggingface.co/deepsweet/Qwen3.6-35B-A3B-MLX-oQ4) if you have M3+ Apple Silicon.
+
 This model was converted to MLX format from [Qwen/Qwen3.6-35B-A3B](https://huggingface.co/Qwen/Qwen3.6-35B-A3B) using:
 
 - [oMLX v0.36.0](https://github.com/jundot/omlx/releases/tag/v0.3.6)
-- specific optimization for M1/M2 Apple Silicon performance, see [jundot/omlx/issues/604](https://github.com/jundot/omlx/issues/604) for more details and benchmarks
 - fully [fixed](https://huggingface.co/froggeric/Qwen3.5-35B-A3B-Uncensored-FernflowerAI-MLX-8bit/blob/main/chat_template.README.md) `chat_template.jinja` by [@froggeric](https://huggingface.co/froggeric)
 
 Settings:
