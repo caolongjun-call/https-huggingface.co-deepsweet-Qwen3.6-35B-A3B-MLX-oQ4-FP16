@@ -14,10 +14,7 @@ base_model: Qwen/Qwen3.6-35B-A3B
 >
 > Please use [deepsweet/Qwen3.6-35B-A3B-MLX-oQ4](https://huggingface.co/deepsweet/Qwen3.6-35B-A3B-MLX-oQ4) if you have M3+ Apple Silicon.
 
-This model was converted to MLX format from [Qwen/Qwen3.6-35B-A3B](https://huggingface.co/Qwen/Qwen3.6-35B-A3B) using:
-
-- [oMLX v0.36.0](https://github.com/jundot/omlx/releases/tag/v0.3.6)
-- fully [fixed](https://huggingface.co/froggeric/Qwen3.5-35B-A3B-Uncensored-FernflowerAI-MLX-8bit/blob/main/chat_template.README.md) `chat_template.jinja` by [@froggeric](https://huggingface.co/froggeric)
+This model was converted to MLX format from [Qwen/Qwen3.6-35B-A3B](https://huggingface.co/Qwen/Qwen3.6-35B-A3B) using [oMLX v0.36.0](https://github.com/jundot/omlx/releases/tag/v0.3.6).
 
 Settings:
 
