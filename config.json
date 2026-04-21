@@ -8,7 +8,7 @@
     "attention_dropout": 0.0,
     "attn_output_gate": true,
     "bos_token_id": 248044,
-    "dtype": "bfloat16",
+    "dtype": "float16",
     "eos_token_id": 248044,
     "full_attention_interval": 4,
     "head_dim": 256,
