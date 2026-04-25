@@ -34,4 +34,4 @@ See ["Q and oQ KL Divergence and RAM usage comparison"](https://github.com/jundo
 
 ## Changelog
 
-- 26.04.2026: re-quantize using affine Q8 sensitivity model
+- 25.04.2026: re-quantize using affine Q8 sensitivity model
