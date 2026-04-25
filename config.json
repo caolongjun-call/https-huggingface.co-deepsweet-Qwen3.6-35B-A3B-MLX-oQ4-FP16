@@ -340,7 +340,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.5.linear_attn.in_proj_qkv": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -385,7 +385,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.6.linear_attn.in_proj_qkv": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -440,7 +440,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.7.self_attn.k_proj": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -450,17 +450,17 @@
       "mode": "affine"
     },
     "language_model.model.layers.7.self_attn.q_proj": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
     "language_model.model.layers.7.self_attn.v_proj": {
-      "bits": 5,
-      "group_size": 64,
+      "bits": 6,
+      "group_size": 128,
       "mode": "affine"
     },
     "language_model.model.layers.10.linear_attn.in_proj_qkv": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -475,7 +475,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.8.linear_attn.in_proj_qkv": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -490,7 +490,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.9.linear_attn.in_proj_qkv": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -595,7 +595,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.11.self_attn.k_proj": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -605,17 +605,17 @@
       "mode": "affine"
     },
     "language_model.model.layers.11.self_attn.q_proj": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
     "language_model.model.layers.11.self_attn.v_proj": {
-      "bits": 5,
-      "group_size": 64,
+      "bits": 6,
+      "group_size": 128,
       "mode": "affine"
     },
     "language_model.model.layers.12.linear_attn.in_proj_qkv": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -630,7 +630,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.13.linear_attn.in_proj_qkv": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -725,7 +725,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.14.linear_attn.in_proj_qkv": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -740,7 +740,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.15.self_attn.k_proj": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -750,17 +750,17 @@
       "mode": "affine"
     },
     "language_model.model.layers.15.self_attn.q_proj": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
     "language_model.model.layers.15.self_attn.v_proj": {
-      "bits": 5,
-      "group_size": 64,
+      "bits": 6,
+      "group_size": 128,
       "mode": "affine"
     },
     "language_model.model.layers.16.linear_attn.in_proj_qkv": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -855,7 +855,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.17.linear_attn.in_proj_qkv": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -870,7 +870,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.18.linear_attn.in_proj_qkv": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -885,7 +885,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.19.self_attn.k_proj": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -895,13 +895,13 @@
       "mode": "affine"
     },
     "language_model.model.layers.19.self_attn.q_proj": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
     "language_model.model.layers.19.self_attn.v_proj": {
-      "bits": 5,
-      "group_size": 64,
+      "bits": 6,
+      "group_size": 128,
       "mode": "affine"
     },
     "language_model.model.layers.17.linear_attn.in_proj_a": {
@@ -985,7 +985,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.20.linear_attn.in_proj_qkv": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -1000,7 +1000,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.21.linear_attn.in_proj_qkv": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -1015,7 +1015,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.22.linear_attn.in_proj_qkv": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -1120,7 +1120,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.23.self_attn.k_proj": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -1130,17 +1130,17 @@
       "mode": "affine"
     },
     "language_model.model.layers.23.self_attn.q_proj": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
     "language_model.model.layers.23.self_attn.v_proj": {
-      "bits": 5,
-      "group_size": 64,
+      "bits": 6,
+      "group_size": 128,
       "mode": "affine"
     },
     "language_model.model.layers.24.linear_attn.in_proj_qkv": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -1155,7 +1155,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.25.linear_attn.in_proj_qkv": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -1250,7 +1250,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.26.linear_attn.in_proj_qkv": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -1265,7 +1265,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.27.self_attn.k_proj": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -1275,17 +1275,17 @@
       "mode": "affine"
     },
     "language_model.model.layers.27.self_attn.q_proj": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
     "language_model.model.layers.27.self_attn.v_proj": {
-      "bits": 5,
-      "group_size": 64,
+      "bits": 6,
+      "group_size": 128,
       "mode": "affine"
     },
     "language_model.model.layers.28.linear_attn.in_proj_qkv": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -1380,7 +1380,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.29.linear_attn.in_proj_qkv": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -1395,7 +1395,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.30.linear_attn.in_proj_qkv": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -1410,7 +1410,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.31.self_attn.k_proj": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -1420,13 +1420,13 @@
       "mode": "affine"
     },
     "language_model.model.layers.31.self_attn.q_proj": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
     "language_model.model.layers.31.self_attn.v_proj": {
-      "bits": 5,
-      "group_size": 64,
+      "bits": 6,
+      "group_size": 128,
       "mode": "affine"
     },
     "language_model.model.layers.29.linear_attn.in_proj_a": {
@@ -1520,7 +1520,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.32.linear_attn.in_proj_qkv": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -1565,7 +1565,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.33.linear_attn.in_proj_qkv": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -1610,7 +1610,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.34.linear_attn.in_proj_qkv": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -2105,7 +2105,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.5.linear_attn.in_proj_qkv": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -2150,7 +2150,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.6.linear_attn.in_proj_qkv": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -2205,7 +2205,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.7.self_attn.k_proj": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -2215,17 +2215,17 @@
       "mode": "affine"
     },
     "language_model.model.layers.7.self_attn.q_proj": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
     "language_model.model.layers.7.self_attn.v_proj": {
-      "bits": 5,
-      "group_size": 64,
+      "bits": 6,
+      "group_size": 128,
       "mode": "affine"
     },
     "language_model.model.layers.10.linear_attn.in_proj_qkv": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -2240,7 +2240,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.8.linear_attn.in_proj_qkv": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -2255,7 +2255,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.9.linear_attn.in_proj_qkv": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -2360,7 +2360,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.11.self_attn.k_proj": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -2370,17 +2370,17 @@
       "mode": "affine"
     },
     "language_model.model.layers.11.self_attn.q_proj": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
     "language_model.model.layers.11.self_attn.v_proj": {
-      "bits": 5,
-      "group_size": 64,
+      "bits": 6,
+      "group_size": 128,
       "mode": "affine"
     },
     "language_model.model.layers.12.linear_attn.in_proj_qkv": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -2395,7 +2395,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.13.linear_attn.in_proj_qkv": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -2490,7 +2490,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.14.linear_attn.in_proj_qkv": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -2505,7 +2505,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.15.self_attn.k_proj": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -2515,17 +2515,17 @@
       "mode": "affine"
     },
     "language_model.model.layers.15.self_attn.q_proj": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
     "language_model.model.layers.15.self_attn.v_proj": {
-      "bits": 5,
-      "group_size": 64,
+      "bits": 6,
+      "group_size": 128,
       "mode": "affine"
     },
     "language_model.model.layers.16.linear_attn.in_proj_qkv": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -2620,7 +2620,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.17.linear_attn.in_proj_qkv": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -2635,7 +2635,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.18.linear_attn.in_proj_qkv": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -2650,7 +2650,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.19.self_attn.k_proj": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -2660,13 +2660,13 @@
       "mode": "affine"
     },
     "language_model.model.layers.19.self_attn.q_proj": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
     "language_model.model.layers.19.self_attn.v_proj": {
-      "bits": 5,
-      "group_size": 64,
+      "bits": 6,
+      "group_size": 128,
       "mode": "affine"
     },
     "language_model.model.layers.17.linear_attn.in_proj_a": {
@@ -2750,7 +2750,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.20.linear_attn.in_proj_qkv": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -2765,7 +2765,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.21.linear_attn.in_proj_qkv": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -2780,7 +2780,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.22.linear_attn.in_proj_qkv": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -2885,7 +2885,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.23.self_attn.k_proj": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -2895,17 +2895,17 @@
       "mode": "affine"
     },
     "language_model.model.layers.23.self_attn.q_proj": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
     "language_model.model.layers.23.self_attn.v_proj": {
-      "bits": 5,
-      "group_size": 64,
+      "bits": 6,
+      "group_size": 128,
       "mode": "affine"
     },
     "language_model.model.layers.24.linear_attn.in_proj_qkv": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -2920,7 +2920,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.25.linear_attn.in_proj_qkv": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -3015,7 +3015,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.26.linear_attn.in_proj_qkv": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -3030,7 +3030,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.27.self_attn.k_proj": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -3040,17 +3040,17 @@
       "mode": "affine"
     },
     "language_model.model.layers.27.self_attn.q_proj": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
     "language_model.model.layers.27.self_attn.v_proj": {
-      "bits": 5,
-      "group_size": 64,
+      "bits": 6,
+      "group_size": 128,
       "mode": "affine"
     },
     "language_model.model.layers.28.linear_attn.in_proj_qkv": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -3145,7 +3145,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.29.linear_attn.in_proj_qkv": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -3160,7 +3160,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.30.linear_attn.in_proj_qkv": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -3175,7 +3175,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.31.self_attn.k_proj": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -3185,13 +3185,13 @@
       "mode": "affine"
     },
     "language_model.model.layers.31.self_attn.q_proj": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
     "language_model.model.layers.31.self_attn.v_proj": {
-      "bits": 5,
-      "group_size": 64,
+      "bits": 6,
+      "group_size": 128,
       "mode": "affine"
     },
     "language_model.model.layers.29.linear_attn.in_proj_a": {
@@ -3285,7 +3285,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.32.linear_attn.in_proj_qkv": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -3330,7 +3330,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.33.linear_attn.in_proj_qkv": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
@@ -3375,7 +3375,7 @@
       "mode": "affine"
     },
     "language_model.model.layers.34.linear_attn.in_proj_qkv": {
-      "bits": 5,
+      "bits": 6,
       "group_size": 64,
       "mode": "affine"
     },
