@@ -20,17 +20,13 @@ This model was converted to MLX format from [Qwen/Qwen3.6-35B-A3B](https://huggi
 
 ## What is "oQ"?
 
-See ["oQ: oMLX Universal Dynamic Quantization"](https://github.com/jundot/omlx/blob/main/docs/oQ_Quantization.md) for details.
+See ["oQ: oMLX Universal Dynamic Quantization"](https://github.com/jundot/omlx/blob/main/docs/oQ_Quantization.md) and ["Q and oQ KL Divergence and RAM usage comparison"](https://github.com/jundot/omlx/discussions/945) for details.
 
 ## What is "FP16"?
 
 "FP16" is M1/M2 Apple Silicon only optimization that leads to a very noticeable prompt processing boost. See [jundot/omlx/issues/604](https://github.com/jundot/omlx/issues/604) for details.
 
 Use [deepsweet/Qwen3.6-35B-A3B-MLX-oQ4](https://huggingface.co/deepsweet/Qwen3.6-35B-A3B-MLX-oQ4) if you have M3+ Apple Silicon.
-
-## How to choose oQ level?
-
-See ["Q and oQ KL Divergence and RAM usage comparison"](https://github.com/jundot/omlx/discussions/945) for details.
 
 ## Changelog
 
