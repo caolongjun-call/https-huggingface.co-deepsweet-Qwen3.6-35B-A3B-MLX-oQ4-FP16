@@ -1,7 +1,7 @@
 ---
 language: en
 license: apache-2.0
-license_link: https://huggingface.co/Qwen/Qwen3.5-35B-A3B/blob/main/LICENSE
+license_link: https://huggingface.co/Qwen/Qwen3.6-35B-A3B/blob/main/LICENSE
 pipeline_tag: text-generation
 tags:
 - mlx
