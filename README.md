@@ -28,6 +28,10 @@ See ["oQ: oMLX Universal Dynamic Quantization"](https://github.com/jundot/omlx/b
 
 Use [deepsweet/Qwen3.6-35B-A3B-MLX-oQ4](https://huggingface.co/deepsweet/Qwen3.6-35B-A3B-MLX-oQ4) if you have M3+ Apple Silicon.
 
+## I need a multimodal variant with Vision-Language
+
+See [deepsweet/Qwen3.6-35B-A3B-MLX-VL-oQ4-FP16](https://huggingface.co/deepsweet/Qwen3.6-35B-A3B-MLX-VL-oQ4-FP16) for details.
+
 ## Changelog
 
 - 25.04.2026: re-quantize using affine Q8 sensitivity model
