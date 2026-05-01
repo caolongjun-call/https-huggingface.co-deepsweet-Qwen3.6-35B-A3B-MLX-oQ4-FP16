@@ -11,6 +11,10 @@ base_model: Qwen/Qwen3.6-35B-A3B
 
 This model was converted to MLX format from [Qwen/Qwen3.6-35B-A3B](https://huggingface.co/Qwen/Qwen3.6-35B-A3B) using [oMLX v0.3.6](https://github.com/jundot/omlx/releases/tag/v0.3.6).
 
+See ["KLD and PPL evaluation of various MLX quantizations"](https://github.com/deepsweet/mlx-eval/blob/main/results/README.md) for detailed results:
+
+![Qwen3.6-35B-A3B KLD/RAM chart](https://raw.githubusercontent.com/deepsweet/mlx-eval/main/results/Qwen3.6-35B-A3B.svg?20250430)
+
 ## Settings
 
 - Level: oQ4
