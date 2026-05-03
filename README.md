@@ -24,7 +24,7 @@ See ["KLD and PPL evaluation of various MLX quantizations"](https://github.com/d
 
 ## What is "oQ"?
 
-See ["oQ: oMLX Universal Dynamic Quantization"](https://github.com/jundot/omlx/blob/main/docs/oQ_Quantization.md) and ["Q and oQ KL Divergence and RAM usage comparison"](https://github.com/jundot/omlx/discussions/945) for details.
+See ["oQ: oMLX Universal Dynamic Quantization"](https://github.com/jundot/omlx/blob/main/docs/oQ_Quantization.md) for details.
 
 ## What is "FP16"?
 
