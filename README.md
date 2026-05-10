@@ -36,7 +36,7 @@ No "VL" means quantization is Text-Only.
 
 ## What is "FP16"?
 
-"FP16" is an M1/M2 Apple Silicon tweak that delivers a very noticeable prompt processing boost, because older M-series lack native BF16 hardware support. See [jundot/omlx/issues/604](https://github.com/jundot/omlx/issues/604) for details.
+"FP16" is an M1/M2 Apple Silicon tweak that delivers a very noticeable prompt processing boost, because older M-series lack native BF16 hardware support. See ["Metal FP32 Vs BF16 Vs FP16 benchmark"](https://github.com/deepsweet/metal-fp32-bf16-fp16) for details.
 
 No "FP16" means quantization is better suited for M3+ Apple Silicon.
 
